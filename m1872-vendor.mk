@@ -124,15 +124,19 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1872/proprietary/vendor/etc/sensors/config/tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd2725.json \
     vendor/meizu/m1872/proprietary/vendor/etc/sensors/config/tmx4903.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmx4903.json \
     vendor/meizu/m1872/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/meizu/m1872/proprietary/vendor/firmware/aw8691_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8691_haptic.bin \
     vendor/meizu/m1872/proprietary/vendor/firmware/bu63169.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/bu63169.coeff \
     vendor/meizu/m1872/proprietary/vendor/firmware/bu63169.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu63169.prog \
     vendor/meizu/m1872/proprietary/vendor/firmware/bu64748gwz.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64748gwz.coeff \
     vendor/meizu/m1872/proprietary/vendor/firmware/bu64748gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64748gwz.prog \
+    vendor/meizu/m1872/proprietary/vendor/firmware/coin_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/coin_ring.bin \
     vendor/meizu/m1872/proprietary/vendor/firmware/cs35l41-dsp1-diag.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag.wmfw \
     vendor/meizu/m1872/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.bin \
     vendor/meizu/m1872/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
     vendor/meizu/m1872/proprietary/vendor/firmware/cs47l35-dsp3-ctrl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l35-dsp3-ctrl.bin \
     vendor/meizu/m1872/proprietary/vendor/firmware/cs47l35-dsp3-ctrl.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l35-dsp3-ctrl.wmfw \
+    vendor/meizu/m1872/proprietary/vendor/firmware/defalm_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/defalm_ring.bin \
+    vendor/meizu/m1872/proprietary/vendor/firmware/defsim_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/defsim_ring.bin \
     vendor/meizu/m1872/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/meizu/m1872/proprietary/vendor/lib/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx318.so \
     vendor/meizu/m1872/proprietary/vendor/lib/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx334.so \
@@ -256,4 +260,5 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1872/proprietary/vendor/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-adapter.ko \
     vendor/meizu/m1872/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
     vendor/meizu/m1872/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
-    vendor/meizu/m1872/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko
+    vendor/meizu/m1872/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
+    vendor/meizu/m1872/proprietary/vendor/lib64/hw/vibrator.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.sdm710.so
