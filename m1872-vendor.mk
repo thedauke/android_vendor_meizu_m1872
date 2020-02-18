@@ -21,7 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1872/proprietary/etc/vstab_db_0_1080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_1080p_video_30fps.config \
     vendor/meizu/m1872/proprietary/etc/vstab_db_0_4k_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_4k_video_30fps.config \
     vendor/meizu/m1872/proprietary/etc/vstab_db_0_720p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_720p_video_30fps.config \
+    vendor/meizu/m1872/proprietary/vendor/bin/hw/meizu.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/meizu.biometrics.fingerprint@2.1-service \
     vendor/meizu/m1872/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
+    vendor/meizu/m1872/proprietary/vendor/etc/init/meizu.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/meizu.biometrics.fingerprint@2.1-service.rc \
+    vendor/meizu/m1872/proprietary/vendor/etc/permissions/com.synaptics.fingerprint.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.synaptics.fingerprint.extension.xml \
     vendor/meizu/m1872/proprietary/vendor/etc/sensors/config/8909w_Compal_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/8909w_Compal_ak991x_0.json \
     vendor/meizu/m1872/proprietary/vendor/etc/sensors/config/8909w_Compal_bmi160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/8909w_Compal_bmi160_0.json \
     vendor/meizu/m1872/proprietary/vendor/etc/sensors/config/8909w_Compal_ltr308_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/8909w_Compal_ltr308_0.json \
@@ -137,6 +140,25 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1872/proprietary/vendor/firmware/cs47l35-dsp3-ctrl.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l35-dsp3-ctrl.wmfw \
     vendor/meizu/m1872/proprietary/vendor/firmware/defalm_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/defalm_ring.bin \
     vendor/meizu/m1872/proprietary/vendor/firmware/defsim_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/defsim_ring.bin \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b00 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b01 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b02 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b03 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b04 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b05 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b06 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.b07 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/image/mzfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/image/mzfp64.mdt \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b00 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b01 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b02 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b03 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b04 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b05 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b06 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.b07 \
+    vendor/meizu/m1872/proprietary/vendor/firmware/mzfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/mzfp64.mdt \
+    vendor/meizu/m1872/proprietary/vendor/framework/com.synaptics.fingerprint.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.synaptics.fingerprint.extension.jar \
     vendor/meizu/m1872/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/meizu/m1872/proprietary/vendor/lib/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx318.so \
     vendor/meizu/m1872/proprietary/vendor/lib/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx334.so \
@@ -261,4 +283,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1872/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
     vendor/meizu/m1872/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
     vendor/meizu/m1872/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
-    vendor/meizu/m1872/proprietary/vendor/lib64/hw/vibrator.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.sdm710.so
+    vendor/meizu/m1872/proprietary/vendor/lib64/hw/fingerprint.syna.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.syna.so \
+    vendor/meizu/m1872/proprietary/vendor/lib64/hw/vibrator.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.sdm710.so \
+    vendor/meizu/m1872/proprietary/vendor/lib64/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfmtztransport.so \
+    vendor/meizu/m1872/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
